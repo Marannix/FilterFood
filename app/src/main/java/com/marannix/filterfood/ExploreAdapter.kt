@@ -5,27 +5,28 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.marannix.filterfood.ExploreAdapter.ExploreViewHolder
+import com.marannix.filterfood.R
 
-class ExploreAdapter : RecyclerView.Adapter<ExploreViewHolder>() {
+class ExploreAdapter(val listOfRecipes: List<ExploreRecipe>) :
+    RecyclerView.Adapter<ExploreAdapter.ExploreViewHolder>() {
 
     private val items: MutableList<ExploreRecipe> = mutableListOf()
 
-    fun setData(listOfExploreRecipe: List<ExploreRecipe>, filter: ExploreFilter) {
+    fun sortBy(filter: ExploreFilter) {
         items.clear()
 
         when (filter) {
             ExploreFilter.ALL -> {
-                items.addAll(listOfExploreRecipe)
+                items.addAll(listOfRecipes)
             }
             ExploreFilter.CATEGORY -> {
-                items.addAll(listOfExploreRecipe.sortedBy { it.category })
+                items.addAll(listOfRecipes.sortedBy { it.category })
             }
             ExploreFilter.CUISINE -> {
-                items.addAll(listOfExploreRecipe.sortedBy { it.cuisine })
+                items.addAll(listOfRecipes.sortedBy { it.cuisine })
             }
             ExploreFilter.TIME -> {
-                items.addAll(listOfExploreRecipe.sortedBy { it.time })
+                items.addAll(listOfRecipes.sortedBy { it.time })
             }
         }
 

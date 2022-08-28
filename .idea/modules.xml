@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RecyclerviewHeader.iml" filepath="$PROJECT_DIR$/.idea/modules/RecyclerviewHeader.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/RecyclerviewHeader.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/RecyclerviewHeader.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/RecyclerviewHeader.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/RecyclerviewHeader.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/RecyclerviewHeader.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/RecyclerviewHeader.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/RecyclerviewHeader.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/RecyclerviewHeader.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FilterFood.iml" filepath="$PROJECT_DIR$/.idea/modules/FilterFood.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FilterFood.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FilterFood.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FilterFood.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FilterFood.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FilterFood.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FilterFood.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FilterFood.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FilterFood.app.unitTest.iml" />
     </modules>
   </component>
 </project>

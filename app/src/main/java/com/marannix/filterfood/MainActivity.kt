@@ -26,11 +26,10 @@ class MainActivity : AppCompatActivity(), ExploreFilterItem.ClickListener {
     }
 
     private fun setAdapter() {
-        adapter = ExploreAdapter()
+        adapter = ExploreAdapter(listOfRecipes)
         recyclerView.layoutManager = GridLayoutManager(this, 2)
         recyclerView.adapter = adapter
-        adapter.setData(listOfRecipes, ExploreFilter.ALL)
-
+        adapter.sortBy(ExploreFilter.ALL)
     }
 
     private fun createExploreItem() {
@@ -41,6 +40,6 @@ class MainActivity : AppCompatActivity(), ExploreFilterItem.ClickListener {
     }
 
     override fun onClick(filter: ExploreFilter) {
-        adapter.setData(listOfRecipes, filter)
+        adapter.sortBy(filter)
     }
 }

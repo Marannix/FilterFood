@@ -5,6 +5,7 @@ import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
+import com.marannix.filterfood.R
 
 /**
  * All -- Categories -- Cuisine -- Time
